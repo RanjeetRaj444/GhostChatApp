@@ -6,7 +6,7 @@ Description:- A website created for increase and helping to student's knowledge 
 
 # Fontend :--
 
-![Logo](<backend/public/pngwing.com%20(2).png>)
+![Logo](</public/pngwing.com%20(2).png>)
 
 This is a Chat application built with HTML, CSS, JavaScript, and powered by a node Server backend with express socket.io.
 
