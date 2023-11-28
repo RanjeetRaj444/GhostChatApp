@@ -1,0 +1,107 @@
+*{
+	font-family: cursive;
+}
+.logo {
+	width: 10%;
+	display: block;
+	align-items: center;
+	margin: auto;
+}
+h1 {
+	text-align: center;
+	align-items: center;
+	color: white;
+}
+.name {
+	color: rgb(109, 231, 130);
+}
+.container {
+	width: 50%;
+	margin: auto;
+	/* background-color: teal; */
+	height: 50vh;
+	padding: 2rem;
+	border: 2px solid gray;
+	/* border-radius: 2rem; */
+	overflow-y: auto;
+	background-image: url("./pngwing.com\ \(5\).png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 30%;
+}
+
+.message {
+	display: flex;
+	/* flex-direction: column; */
+	gap: 0.5rem;
+	background-color: gray;
+	width: 70%;
+	padding: 1rem;
+	margin: 1rem;
+	border: 2px solid rgb(97, 241, 152);
+	border-radius: 0.5rem;
+}
+.left {
+	float: left;
+	clear: both;
+}
+.right {
+	float: right;
+	clear: both;
+}
+.User {
+	color: rgb(4, 0, 255);
+}
+.Text {
+	color: aquamarine;
+}
+body {
+	background-image: linear-gradient(red, blue);
+	height: 100vh;
+}
+
+#send-container {
+	margin: auto;
+	width: 50%;
+	text-align: center;
+	padding: 2rem;
+}
+#messageInp {
+	width: 80%;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+}
+.btn {
+	width: 10%;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+    background-image: linear-gradient(rgb(0, 225, 255),rgb(238, 107, 107));
+}
+
+@media screen and (max-width: 495px) {
+	body {
+		background-image: linear-gradient(rgb(179, 84, 84), blue);
+        padding: 2rem;
+	}
+    .container{
+        background-size: 70%;
+    }
+    .message{
+        flex-direction: column;
+        padding: .5rem;
+    }
+	#send-container {
+		width: 100%;
+        display: flex;
+	}
+	#messageInp {
+		width: 50%;
+	}
+	.btn {
+		width: 40%;
+	}
+    .logo{
+        width: 50%;
+    }
+}
