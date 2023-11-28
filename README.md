@@ -12,11 +12,8 @@ This is a Chat application built with HTML, CSS, JavaScript, and powered by a no
 
 ### Landing page before login
 
-![Landing Page](<backend/Screenshot%20(1559).png>)
+![Landing Page](</Screenshot%20(1559).png>)
 
-### Landing page after login
-
-![Landing Page](<fontend/src/Assets/Screenshot (1520).png>)
 
 ## Features
 
